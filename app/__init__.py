@@ -12,7 +12,7 @@ from helpers import JSONEncoder
 
 app = Flask(__name__)
 CORS(app)
-
+# test
 app.register_blueprint(site)
 app.register_blueprint(auth)
 app.register_blueprint(api)
